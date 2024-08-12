@@ -81,6 +81,7 @@ use this command to train the model from tensor-flow
    <img src="SLR-reults/namste.jpg" alt="Alt Text" width="350"/>
    <img src="SLR-reults/good-Morning.jpg" alt="Alt Text" width="350"/>
 </p>
+
 ```
 The trained models are action.h5 files. The results of the training, including loss and accuracy plots, can be visualized using the Matplotlib library.
 ```
