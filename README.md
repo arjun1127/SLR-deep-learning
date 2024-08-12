@@ -75,4 +75,10 @@ use this command to train the model from tensor-flow
 
 ##Results 
 
+![Alt Text](SLR-reults/are-you-ok.jpg)
+![Alt Text](SLR-reults/im-fine.jpg)
+![Alt Text](SLR-reults/namste.jpg)
+
+
+
 
