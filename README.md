@@ -18,7 +18,10 @@ This project aims to recognize sign language gestures using deep learning techni
 
 ## DEMO
 
-[Watch the Video](SLR-reults/vedio/SLR_res.mp4)
+<video width="320" height="240" controls>
+  <source src="C:\Users\Admin\OneDrive\Pictures\SLR-reults\vedio\SLR_res.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ## Features
 
