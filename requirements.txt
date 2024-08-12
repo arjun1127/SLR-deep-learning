@@ -1,0 +1,24 @@
+## OpenCV:
+```
+pip install opencv-python
+```
+## NumPy:
+```
+pip install numpy
+```
+## MediaPipe:
+```
+pip install mediapipe
+```
+## TensorFlow (including Keras):
+```
+pip install tensorflow
+```
+## Scikit-learn (for multilabel_confusion_matrix and accuracy_score):
+```
+pip install scikit-learn
+```
+## SciPy (for stats):
+```
+pip install scipy
+```
