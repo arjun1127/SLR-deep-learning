@@ -25,17 +25,33 @@ This project aims to recognize sign language gestures using deep learning techni
 ## Project Structure
 
 ```plaintext
-.
-├── dataset/
-│   ├── MP_DATA/
-├── models/
-│   ├── action1.h5
-│   ├── action2.h5
-├── src/
-│   ├── main.py
-│   ├── train.py
-│   └── utils.py
-├── MP_DATA_FINAL/  # Stored keypoints as numpy arrays
-├── requirements.txt
-└── README.md
+Your Folder
+  |__SLR.pynb
+  |__action.h5
+  |__MP_DATA
+    |__actionSequence1
+      |__1_to_30 folders
+    |__actionSequence2
+      |__1_to_30 folders
+    |__actionSequence3
+      |__1_to_30 folders
+  |__Logs
+      |__train
+      |__validation
+  └── README.md
+
+//Here Use many MP_DATA folders for more actions , and also make more action.h5 folders for more models so in total we get more hand geustures
+```
+## Installation
+
+### Prerequisites
+
+- Python 3.8 or higher
+- Git
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/sign-language-recognition.git
+cd sign-language-recognition
 
