@@ -17,11 +17,12 @@ This project implements a sign language recognition system using deep learning, 
 This project aims to recognize sign language gestures using deep learning techniques. The system is built with TensorFlow and Keras for the deep learning model, and MediaPipe Holistic for detecting and tracking hand and body movements.
 
 ## DEMO
+```
+If video not available click view raw !
+```
 
-<video width="320" height="240" controls>
-  <source src="C:\Users\Admin\OneDrive\Pictures\SLR-reults\vedio\SLR_res.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Watch the Video](SLR-reults/vedio/SLR_res.mp4)
+
 
 ## Features
 
