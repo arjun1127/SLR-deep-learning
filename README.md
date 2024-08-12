@@ -54,4 +54,17 @@ Your Folder
 ```bash
 git clone https://github.com/yourusername/sign-language-recognition.git
 cd sign-language-recognition
+```
 
+##Install Dependencies
+It is recommended to use a virtual environment to manage dependencies:
+
+```
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+##Install the required packages:
+```
+pip install -r requirements.txt
+
+```
