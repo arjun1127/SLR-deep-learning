@@ -77,7 +77,7 @@ use this command to train the model from tensor-flow
 
 <p align="center">
   <img src="SLR-reults/are-you-ok.jpg" alt="Alt Text" width="350"/>
-   <img src="SLR-reults/im-fine" alt="Alt Text" width="350"/>
+   <img src="SLR-reults/im-fine.jpg" alt="Alt Text" width="350"/>
    <img src="SLR-reults/namste.jpg" alt="Alt Text" width="350"/>
 </p>
 
