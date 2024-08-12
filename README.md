@@ -67,20 +67,27 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 
 ```
-## Model Training
+## Model-training
 ```
 model.fit()
 ```
 use this command to train the model from tensor-flow 
 
-##Results 
+## Results 
 
 <p align="center">
   <img src="SLR-reults/are-you-ok.jpg" alt="Alt Text" width="350"/>
    <img src="SLR-reults/im-fine.jpg" alt="Alt Text" width="350"/>
    <img src="SLR-reults/namste.jpg" alt="Alt Text" width="350"/>
+   <img src="SLR-reults/good-Morning.jpg" alt="Alt Text" width="350"/>
 </p>
+```
+The trained models are action.h5 files. The results of the training, including loss and accuracy plots, can be visualized using the Matplotlib library.
+```
 
+## Contributing
+
+If you'd like to contribute to this project, please fork the repository and submit a pull request. We welcome any improvements or suggestions.
 
 
 
