@@ -7,7 +7,6 @@ This project implements a sign language recognition system using deep learning, 
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Model Training](#model-training)
 - [Results](#results)
 - [Contributing](#contributing)
@@ -56,15 +55,24 @@ git clone https://github.com/yourusername/sign-language-recognition.git
 cd sign-language-recognition
 ```
 
-##Install Dependencies
+## Install Dependencies
 It is recommended to use a virtual environment to manage dependencies:
 
 ```
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
-##Install the required packages:
+## Install the required packages:
 ```
 pip install -r requirements.txt
 
 ```
+## Model Training
+```
+model.fit()
+```
+use this command to train the model from tensor-flow 
+
+##Results 
+
+
