@@ -83,7 +83,7 @@ model.fit()
 ```
 use this command to train the model from tensor-flow 
 
-## Results 
+## outcomes 
 
 <p align="center">
   <img src="SLR-reults/are-you-ok.jpg" alt="Alt Text" width="350"/>
