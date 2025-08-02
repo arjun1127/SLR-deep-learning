@@ -96,6 +96,21 @@ use this command to train the model from tensor-flow
 The trained models are action.h5 files. The results of the training, including loss and accuracy plots, can be visualized using the Matplotlib library.
 
 
+
+## Details about the project
+
+This project aims to recognize sign language gestures using deep learning techniques. The system is built with TensorFlow and Keras for the deep learning model, and MediaPipe Holistic for detecting and tracking hand movements.
+Tech Stack used : Python , TensorFlow , OpenCV, MediaPipe 
+Implementations : LSTM , Custom Dataset
+OS used : Ubuntu  
+Working : 
+1. Have used MediaPipe to get the landmarks of face , and hand with the help of OpenCv to capture face and hand postures and store as keypoints 
+2. After which we extract the keypoints we convert it numpy array format for feature engineering 
+3.Create respective signs folder and store the data (custom dataset) and split them to train , test and validation sets  
+4.Then we train the sequential model using LSTM (its like a classification model) based on the test results tells weather the current sign shown via CV2 capture is the respected sign 
+
+Our project had a accuracy over 93% and Further enhancement can be made by implementing a client-server model and making the model act as a backend .
+
 ## Contributing
 
 If you'd like to contribute to this project, please fork the repository and submit a pull request. We welcome any improvements or suggestions.
